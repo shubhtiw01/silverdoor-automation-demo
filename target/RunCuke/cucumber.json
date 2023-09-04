@@ -1,0 +1,284 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3735751900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "As a user, I should not be able to login to the Orbi platform, using invalid credentials.",
+        "description": "",
+        "id": "orbi-login-functionality;as-a-user,-i-should-not-be-able-to-login-to-the-orbi-platform,-using-invalid-credentials.",
+        "after": [
+          {
+            "result": {
+              "duration": 618994200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 94036900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on the SilverDoor Homepage verified by the text \"Business. Accommodated.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Business. Accommodated.",
+                  "offset": 54
+                }
+              ],
+              "location": "OrbiLoginSteps.iAmOnTheSilverDoorHomepageVerifiedByTheText(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5065905400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on the Orbi symbol",
+            "match": {
+              "location": "OrbiLoginSteps.iClickOnTheOrbiSymbol()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75185500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "A new tab opens with the Orbi login page displayed, verified by the Sign In button",
+            "match": {
+              "location": "OrbiLoginSteps.aNewTabOpensWithTheOrbiLoginPageDisplayedVerifiedByTheSignInButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46813600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"test@mail.com\" into the Email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@mail.com",
+                  "offset": 9
+                }
+              ],
+              "location": "OrbiLoginSteps.iEnterIntoTheEmailField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33139100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"test123\" into the Password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test123",
+                  "offset": 9
+                }
+              ],
+              "location": "OrbiLoginSteps.iEnterIntoThePasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 210519100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the Sign In button",
+            "match": {
+              "location": "OrbiLoginSteps.iClickTheSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57785500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the error message \"Wrong credentials\" displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Wrong credentials",
+                  "offset": 32
+                }
+              ],
+              "location": "OrbiLoginSteps.iShouldSeeTheErrorMessageDisplayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Orbi Login functionality",
+    "description": "",
+    "id": "orbi-login-functionality",
+    "keyword": "Feature",
+    "uri": "OrbiLogin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2142074100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "As a user I should be able to view Hanish Vithal\u0027s personal profile",
+        "description": "",
+        "id": "view-profile-functionality;as-a-user-i-should-be-able-to-view-hanish-vithal\u0027s-personal-profile",
+        "after": [
+          {
+            "result": {
+              "duration": 628796000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24373700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on the SilverDoor Homepage verified by the text \"Business. Accommodated.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Business. Accommodated.",
+                  "offset": 54
+                }
+              ],
+              "location": "OrbiLoginSteps.iAmOnTheSilverDoorHomepageVerifiedByTheText(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2909180500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on View all profiles under the Meet the team section",
+            "match": {
+              "location": "ViewProfileSteps.iClickOnViewAllProfilesUnderTheMeetTheTeamSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17561100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should be directed to the staff profiles page verified by the text \"Staff Profiles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Staff Profiles",
+                  "offset": 70
+                }
+              ],
+              "location": "ViewProfileSteps.iShouldBeDirectedToTheStaffProfilesPageVerifiedByTheText(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 108672400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the dropdown list related to departments and select SilverDoor Executive Team",
+            "match": {
+              "location": "ViewProfileSteps.iClickOnTheDropdownListRelatedToDepartmentsAndSelectSilverDoorExecutiveTeam()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 366730800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Hanish Vithal\u0027s profile",
+            "match": {
+              "location": "ViewProfileSteps.iClickOnHanishVithalSProfile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26141000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see the correct profile displayed verified by the text \"Hanish Vithal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hanish Vithal",
+                  "offset": 65
+                }
+              ],
+              "location": "ViewProfileSteps.iShouldSeeTheCorrectProfileDisplayedVerifiedByTheText(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "View Profile functionality",
+    "description": "",
+    "id": "view-profile-functionality",
+    "keyword": "Feature",
+    "uri": "ViewProfile.feature"
+  }
+]
